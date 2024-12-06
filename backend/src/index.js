@@ -9,6 +9,8 @@ const app = express();
 
 const PORT = process.env.PORT
 
+app.use(express.json()) //middleware to extract json data out of body of the submitted form
+
 app.use("/api/auth", authRoutes) //route for authentication
 
 app.listen(PORT, () => {
