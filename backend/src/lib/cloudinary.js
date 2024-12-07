@@ -1,6 +1,6 @@
 import {v2 as cloudinary} from "cloudinary"
 
-import second from 'dotenv'
+import {config} from 'dotenv'
 
 config()
 
