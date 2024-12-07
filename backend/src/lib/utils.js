@@ -15,4 +15,3 @@ export const generateToken= (userId, res) => {
 
     return token;
 }
-//in this function I generate a token and sending it back to the user in a http cookie = secure
