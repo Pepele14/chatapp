@@ -45,5 +45,7 @@ logout: async () => {
         toast.error(error.response.data.message)
 
     }
-}
+},
+
+updateProfile: async(data) => {},
 }))
