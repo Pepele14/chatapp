@@ -34,5 +34,16 @@ signup: async(data) => {
     } finally {
         set ({ isSigningUp : false})
     }
+},
+
+logout: async () => {
+    try{
+        await axiosInstance.post("/auth/logout");
+        set({ authUser: null });
+        toast.success("Logged out succesfully")
+    } catch(error){
+        toast.error(error.response.data.message)
+
+    }
 }
 }))
