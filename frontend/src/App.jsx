@@ -30,7 +30,7 @@ const App = () => {
     </div>
   )
   return (
-    <div>
+    <div data-theme="retro">
       <Navbar />
 
       <Routes>
