@@ -1,5 +1,7 @@
 import { useChatStore } from "../store/useChatStore"
 import { useEffect } from "react"
+import ChastHeader from "./ChastHeader"
+import MessageInput from "./MessageInput"
 
 const ChatContainer = () => {
 
@@ -14,7 +16,7 @@ const ChatContainer = () => {
   
   return (
     <div className="flex-1 flex flex-col overflow-auto">
-        <ChatHeader />
+        <ChastHeader />
 
         <p>messages...</p>
 
