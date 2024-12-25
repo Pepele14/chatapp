@@ -1,6 +1,6 @@
 import { useChatStore } from "../store/useChatStore"
 import { useEffect } from "react"
-import ChastHeader from "./ChastHeader"
+import ChastHeader from "./ChatHeader"
 import MessageInput from "./MessageInput"
 
 const ChatContainer = () => {
